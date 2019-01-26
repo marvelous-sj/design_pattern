@@ -13,12 +13,12 @@ public class StopState extends CourseVideoState {
 
     @Override
     public void speed() {
-        System.out.println("error stop state can't speed");
+        System.out.println("error, stop state can't speed");
     }
 
     @Override
     public void pause() {
-        System.out.println("error stop state can't pause");
+        System.out.println("error, stop state can't pause");
     }
 
     @Override

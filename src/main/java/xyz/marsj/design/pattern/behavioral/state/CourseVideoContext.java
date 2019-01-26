@@ -18,7 +18,7 @@ public class CourseVideoContext {
 
     public void setCourseVideoState(CourseVideoState courseVideoState) {
         this.courseVideoState = courseVideoState;
-        courseVideoState.setCourseVideoContext(this);
+        this.courseVideoState.setCourseVideoContext(this);
     }
 
     public void play() {
